@@ -109,7 +109,7 @@ int main(int argc, const char *argv[])
     //exception treatment
     if(argc != 3)
     {
-        printf("Number of arguments incorret.\nExiting program...\n");
+        printf("Incorrect number of arguments.\nExiting program...\n");
         return(-1);
     }
     FILE *inputPtr = fopen(argv[1], "w");
